@@ -4,6 +4,7 @@
   "description": "Portal de Inventarios Claro con Integración Gemini AI",
   "main": "src/index.jsx",
   "dependencies": {
+    "@types/react": "^18.2.39" 
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.25.1",
@@ -14,15 +15,6 @@
     "tailwindcss": "4.1.17",
     "postcss-node": "2.0.2"
   },
-
-"devDependencies": {
-  // Otras dependencias de desarrollo que ya tengas...
-  "@types/react": "^18.2.39"  // <-- AÑADE ESTA LÍNEA
-},
-"dependencies": {
-  // Tus dependencias de producción...
-}
-  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build"
